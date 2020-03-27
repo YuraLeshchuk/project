@@ -1,0 +1,25 @@
+header {
+    text-align: center;
+    font: 11px Lato;
+}
+#credo {
+    text-align: center;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font: 14px Lato;
+}
+nav {
+    text-align: center;
+    color: grey;
+    font: 11px Lato;
+}
+#small-header {
+    text-align: center;
+    color: gray;
+    font: 16px Lato;
+}
+#vnl-raw {
+    width: 575px;
+    height: 235px;
+}
