@@ -94,12 +94,20 @@ h3 {
 #formbuttons {
     text-align: center;
 }
-#aboutpageimage {
-    width: 575px;
+#aboutpageimage, #contactpageimage {
+    width: 560px;
     height: 425px;
 }
 #abouttext {
     text-align: center;
     color: black;
     font: 16px Lato
+}
+#arielviewimage {
+    width: 530px;
+    height: 325px;
+}
+#featuresraw{
+    text-align: center;
+    font: Lato
 }
