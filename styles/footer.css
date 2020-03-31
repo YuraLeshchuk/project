@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap');
+
+:root {
+    font-family: 'Lato', sans-serif;
+    --main-color: black;
+    color: var(--main-color);
+}
+
+footer nav .bottomn-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin: 15px;
+    font-size: 14px;
+
+}
+
+footer nav .bottomn-menu li a {
+    text-decoration: none;
+    color: gray;
+    padding: 5px;
+    border: 1px solid transparent;
+
+}
+
+footer nav .bottomn-menu li a:hover {
+    border: 1px solid var(--main-color);
+    background-color: #f0f1f7;
+}
+
+@media (min-width:768px) {
+
+    footer nav .bottomn-menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0px;
+    margin: 20px 20px 20px 20px;
+    font-size: 14px;
+     }
+
+}
