@@ -2,3 +2,20 @@ body {
     max-width: 1080px;
     margin: auto;
 }
+
+hr {
+    margin: 0px;
+}
+
+#home {
+    background-image: url(../img/vnl-raw.jpg);
+    min-height: 200px;
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0px;
+}
+#home-content {
+    margin: 0px;
+}

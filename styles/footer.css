@@ -29,6 +29,13 @@ footer nav .bottomn-menu li a:hover {
     background-color: #f0f1f7;
 }
 
+#contactinfo {
+    text-align: center;
+    font-size: 14px;
+    color: gray;
+    margin: 15px 15px 15px 15px;
+}
+
 @media (min-width:768px) {
 
     footer nav .bottomn-menu {
