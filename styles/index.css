@@ -3,19 +3,129 @@ body {
     margin: auto;
 }
 
+h3 {
+    margin: 5px;
+}
+
+h2 {
+    margin-left: 25px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
 hr {
     margin: 0px;
 }
 
 #home {
     background-image: url(../img/vnl-raw.jpg);
-    min-height: 200px;
+    min-height: 300px;
     background-position: center;
     background-size: cover;
     color: whitesmoke;
+    margin: 0px;
+    position: relative;
+}
+
+#home-content {
+    /*width: 400px;
+    margin-left: 20%;*/
+    position: absolute;
+    top: 30px;
+    margin-left: 20%;
+}
+
+#background {
+    text-align: left;
+    width: 315px;
+    height: 350px;
+    margin-top: 35px;
+    margin-left: 30%;
+    margin-bottom: 15px;   
+}
+
+#eurotracksimage {
+    width: 450px;
+    margin-left: 20%;
+    
+}
+
+#best-partners-text {
+    width: 300px;
+    margin-top: 65px;
+    font-size: 24px;
+    margin-left: 10%;
+}
+
+#gps {
     text-align: center;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 85px;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+#gps p {
+    font-size: 14px;
+    color: grey;
+}
+
+#gpsimage {
+    height: 430px;
+    width: 760px;
+    object-fit: contain;
+}
+
+#route-planing {
+    text-align: center;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 85px;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+#route-planing p {
+    font-size: 14px;
+    color: grey;
+}
+
+#mapimage {
+    height: 430px;
+    width: 760px;
+    object-fit: contain;
+}
+
+#inventory-management {
+    text-align: center;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 85px;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+#inventory-management p {
+    font-size: 14px;
+    color: grey;
+}
+
+#service {
+    height: 416px;
+}
+
+#serviceimage {
+    height: 420px;
+    width: 760px;
+    object-fit: contain;
     margin: 0px;
 }
-#home-content {
-    margin: 0px;
+
+#quote {
+    height: 280px;
+    background-color: indigo;
+    margin-top: 0px;
+    text-align: left;
+    color: white;
 }
