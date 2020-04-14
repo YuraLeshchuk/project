@@ -8,9 +8,10 @@ h3 {
 }
 
 h2 {
-    margin-left: 25px;
-    margin-top: 25px;
-    font-size: 20px;
+    width: 300px;
+    margin-top: 65px;
+    font-size: 24px;
+    margin-left: 10%;
 }
 
 hr {
@@ -41,7 +42,7 @@ hr {
     height: 350px;
     margin-top: 35px;
     margin-left: 30%;
-    margin-bottom: 15px;   
+    margin-bottom: 100px;   
 }
 
 #eurotracksimage {
@@ -123,9 +124,324 @@ hr {
 }
 
 #quote {
+    width: 760px;
     height: 280px;
     background-color: indigo;
     margin-top: 0px;
-    text-align: left;
-    color: white;
 }
+
+#quotecontent { 
+    width: 500px;
+    color: white;
+    margin-left: 25%;
+    padding-top: 80px;
+    font-size: 20px;
+    
+}
+
+#quoteauthor {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+#clients-header {
+    text-align: center;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 85px;
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+
+#clientsCarousel {
+    width: 768px;
+    height: 251px;
+}
+.carousel-inner p {
+    color: black;
+}
+.carousel-inner h5 {
+    margin-top: 15px;
+    color:black;
+    font-size: 16px;
+
+}
+
+.carousel-caption d-none d-md-block {
+    padding-top: 30px;
+}
+
+.carousel-control-prev {
+    background-color: grey;
+    opacity: 0.2;
+}
+
+.carousel-control-next {
+    background-color: gray;
+    opacity: 0.2;
+}
+
+#contactHeader {
+    text-align: center;
+    width: 250px;
+    margin-left: 35%;
+    margin-top: 85px;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#contactcontent {
+    text-align: center;
+    width: 500px;
+    margin-left: 20%;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+#message {
+    width: 680px; 
+    height:175px; 
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#email {
+    width: 300px;
+    height: 35px;
+    margin-left: 35px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+#name {
+    height: 35px;
+    margin-right: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 250px;
+    margin-left: 35px;
+}
+
+#formbuttons {
+    width: 70px;
+    margin-left: 43%;
+    margin-bottom: 20px;
+}
+
+#frame {
+    width: 768px;
+    height: 230px;
+    margin-bottom: 20px;
+}
+
+@media (min-width:768px) {
+
+    
+
+    #background {
+
+        font-size: 14px;
+        text-align: left;
+        margin-left: 5px;
+    }
+
+    #eurotracksimage {
+    
+        margin-left: 5px;
+    }
+    
+    #best-partners-text {
+        width: 300px;
+        margin-top: 65px;
+        font-size: 24px;
+        margin-left: 10%;
+    }
+    
+    #gps {
+        text-align: center;
+        width: 250px;
+        margin-left: 35%;
+        margin-top: 85px;
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+    
+    #gps p {
+        font-size: 14px;
+        color: grey;
+    }
+    
+    #gpsimage {
+        height: 430px;
+        width: 760px;
+        object-fit: contain;
+    }
+    
+    #route-planing {
+        text-align: center;
+        width: 250px;
+        margin-left: 35%;
+        margin-top: 85px;
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+    
+    #route-planing p {
+        font-size: 14px;
+        color: grey;
+    }
+    
+    #mapimage {
+        height: 430px;
+        width: 760px;
+        object-fit: contain;
+    }
+    
+    #inventory-management {
+        text-align: center;
+        width: 250px;
+        margin-left: 35%;
+        margin-top: 85px;
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+    
+    #inventory-management p {
+        font-size: 14px;
+        color: grey;
+    }
+    
+    #service {
+        height: 416px;
+    }
+    
+    #serviceimage {
+        height: 420px;
+        width: 760px;
+        object-fit: contain;
+        margin: 0px;
+    }
+    
+    #quote {
+        width: 760px;
+        height: 280px;
+        background-color: indigo;
+        margin-top: 0px;
+    }
+    
+    #quotecontent { 
+        width: 500px;
+        color: white;
+        margin-left: 25%;
+        padding-top: 80px;
+        font-size: 20px;
+        
+    }
+    
+    #quoteauthor {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    #clients-header {
+        text-align: center;
+        width: 250px;
+        margin-left: 35%;
+        margin-top: 85px;
+        font-size: 18px;
+        margin-bottom: 85px;
+    }
+    
+    #clientsCarousel {
+        width: 768px;
+        height: 251px;
+    }
+    .carousel-inner p {
+        color: black;
+    }
+    .carousel-inner h5 {
+        margin-top: 15px;
+        color:black;
+        font-size: 16px;
+    
+    }
+    
+    .carousel-caption d-none d-md-block {
+        padding-top: 30px;
+    }
+    
+    .carousel-control-prev {
+        background-color: grey;
+        opacity: 0.2;
+    }
+    
+    .carousel-control-next {
+        background-color: gray;
+        opacity: 0.2;
+    }
+    
+    #contactHeader {
+        text-align: center;
+        width: 250px;
+        margin-left: 35%;
+        margin-top: 85px;
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+    
+    #contactcontent {
+        text-align: center;
+        width: 500px;
+        margin-left: 20%;
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    
+    #message {
+        width: 680px; 
+        height:175px; 
+        margin-left: 5%;
+        margin-right: 5%;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+    
+    #email {
+        width: 300px;
+        height: 35px;
+        margin-left: 35px;
+        margin-right: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+    }
+    
+    #name {
+        height: 35px;
+        margin-right: 10px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: black;
+        width: 250px;
+        margin-left: 35px;
+    }
+    
+    #formbuttons {
+        width: 70px;
+        margin-left: 43%;
+        margin-bottom: 20px;
+    }
+    
+    #frame {
+        width: 768px;
+        height: 230px;
+        margin-bottom: 20px;
+    }
+}   
