@@ -251,6 +251,12 @@ hr {
     margin-left: 10px;
 }
 
+#calculation {
+    margin-bottom: 20px;
+    width: 600px;
+    margin-left: 10%;
+}
+
 @media (min-width:768px) {
 
     
