@@ -206,6 +206,18 @@
                     <div id="rate"></div>
                     <div id="summ"></div>
                 </div>
+                <div id="converter">
+                    <div id="usd"></div>
+                    <div idv='selector'>
+                        <select id="valuta1" onchange="convertNBU();"></select>
+                         <button id="move" onclick="moveValuta();">&#11136;</button> 
+                         <select id="valuta2" onchange="convertNBU()"></select>
+                    </div>
+                    <div>
+                        <input id="res_valuta1" placeholder="Put Amount" oninput="convertNBU();" size="10"> 
+                        <input id="res_valuta2" size="10" disabled>
+                    </div>
+                </div>
                 <iframe id="frame" src="https://www.google.com/maps/d/u/0/embed?mid=1X5hVBFrRpWsUaKHvxBJqb9kPBlIf6lP5"></iframe> 
                 </iframe>
             </section>
@@ -238,18 +250,7 @@
             <p>©LembergTrans</p>
             
         </div>
-        <div id="converter">
-            <div id="usd"></div>
-            <div idv='selector'>
-                <select id="valuta1" onchange="convertNBU();"></select>
-                 <button id="move" onclick="moveValuta();">&#11136;</button> 
-                 <select id="valuta2" onchange="convertNBU()"></select>
-            </div>
-            <div>
-                <input id="res_valuta1" placeholder="Put Amount" oninput="convertNBU();" size="10"> 
-                <input id="res_valuta2" size="10" disabled>
-            </div>
-        </div>
+      
     </footer>
         <script src="index.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
