@@ -1,21 +1,21 @@
-moveValuta = function () {
-  var valuta1 = document.getElementById("valuta1"),
-    valuta2 = document.getElementById("valuta2"),
-    tmp = valuta1.selectedIndex;
-  valuta1.selectedIndex = valuta2.selectedIndex;
-  valuta2.selectedIndex = tmp;
+currency = function () {
+  const curren1 = document.getElementById("curren1"),
+    curren2 = document.getElementById("curren2"),
+    tmp = curren1.selectedIndex;
+  curren1.selectedIndex = curren2.selectedIndex;
+  curren2.selectedIndex = tmp;
   convertNBU();
 };
 
 convertNBU = function () {
-  var valuta1 = document.getElementById("valuta1"),
-    valuta2 = document.getElementById("valuta2"),
-    input1 = document.getElementById("res_valuta1"),
-    input2 = document.getElementById("res_valuta2");
+  const curren1 = document.getElementById("curren1"),
+    curren2 = document.getElementById("curren2"),
+    input1 = document.getElementById("res_curren1"),
+    input2 = document.getElementById("res_curren2");
   var res,
-    k1 = window.kurs[valuta1.value],
-    k2 = window.kurs[valuta2.value];
-  res = (k1 * res_valuta1.value) / k2;
+    k1 = window.kurs[curren1.value],
+    k2 = window.kurs[curren2.value];
+  res = (k1 * res_curren1.value) / k2;
   input2.value = res.toFixed(2);
 };
 
@@ -36,8 +36,8 @@ showConvert = function (cc) {
     var s = "";
     for (var i = 0; i < cc.length; i++)
       s += '<option value="' + cc[i] + '">' + cc[i] + "</option>";
-    document.getElementById("valuta1").innerHTML = s;
-    document.getElementById("valuta2").innerHTML = s;
+    document.getElementById("curren1").innerHTML = s;
+    document.getElementById("curren2").innerHTML = s;
   };
   ajax.send(null);
 };

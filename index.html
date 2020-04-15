@@ -200,22 +200,22 @@
                         <option value="plane">Plane</option>
                         <option value="ship">Ship</option>
                     </select>
-                    <input type="text" id="weight"  placeholder="Weight" required>
-                    <input type="text" id="distance" placeholder="Distance" required>
-                    <button onclick="calc()">Calculate carrier price</button>
+                    <input type="text" id="weight"  placeholder="Weight (ton)" required>
+                    <input type="text" id="distance" placeholder="Distance (km)" required> <br>
+                    <button id="buttoncalc" onclick="calc()">Calculate carrier price</button>
                     <div id="rate"></div>
                     <div id="summ"></div>
                 </div>
                 <div id="converter">
                     <div id="usd"></div>
-                    <div idv='selector'>
-                        <select id="valuta1" onchange="convertNBU();"></select>
-                         <button id="move" onclick="moveValuta();">&#11136;</button> 
-                         <select id="valuta2" onchange="convertNBU()"></select>
+                    <div id='selector'>
+                        <select id="curren1" onchange="convertNBU();"></select>
+                         <button id="move" onclick="currency();">&#11136;</button> 
+                         <select id="curren2" onchange="convertNBU()"></select>
                     </div>
                     <div>
-                        <input id="res_valuta1" placeholder="Put Amount" oninput="convertNBU();" size="10"> 
-                        <input id="res_valuta2" size="10" disabled>
+                        <input id="res_curren1" placeholder="Put Amount" oninput="convertNBU();" size="10"> 
+                        <input id="res_curren2" size="10" disabled>
                     </div>
                 </div>
                 <iframe id="frame" src="https://www.google.com/maps/d/u/0/embed?mid=1X5hVBFrRpWsUaKHvxBJqb9kPBlIf6lP5"></iframe> 

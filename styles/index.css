@@ -240,28 +240,79 @@ hr {
     margin-bottom: 20px;
 }
 
-#converter {
+/* Calculator */
+
+#transport {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    margin: 15px 15px 10px 15px;
+}
+
+#weight, #distance {
+    height: 30px;
+    margin: 15px 5px 10px 15px;
+}
+
+#buttoncalc {
+    height: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px;
     width: 300px;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-around;
+}
+
+    /* Converter */
+
+#selector {
+    margin-left: 5px;
+}
+
+#curren1 {
+    height: 30px;
+    width: 150px;
+    margin: 15px 5px 10px 15px;
+}
+
+#curren2 {
+    height: 30px;
+    width: 150px;
+    margin: 15px 5px 10px 15px;
 }
 
 #move {
-    margin-left: 10px;
+    height: 30px;
+    width: 150px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-#calculation {
-    margin-bottom: 20px;
-    width: 600px;
-    margin-left: 10%;
+#res_curren1 {
+    height: 30px;
+    width: 250px;
+    margin: 15px 5px 10px 15px;
 }
+
+#res_curren2 {
+    height: 30px;
+    width: 250px;
+    margin: 5px 5px 10px 15px;
+}
+
 
 @media (min-width:768px) {
+    header h1 {
+        font-size: 44px;
+    }
 
-    
+    header #credo {
+        font-size: 35px;
+    }
 
-    #background {
+    header #container {
+        display: grid;
+    }
+
+        #background {
 
         font-size: 14px;
         text-align: left;
@@ -271,6 +322,12 @@ hr {
     #eurotracksimage {
     
         margin-left: 5px;
+    }
+
+    #best-partners {
+        display: grid;
+        grid-auto-rows: auto;
+
     }
     
     #best-partners-text {
@@ -454,10 +511,74 @@ hr {
         margin-left: 43%;
         margin-bottom: 20px;
     }
+
+        /* Calculator */
+
+    #transport {
+        height: 40px;
+        width: 150px;
+        text-align: center;
+        margin: 15px 15px 10px 15px;
+    }
+
+    #weight, #distance {
+        height: 40px;
+        margin: 15px 5px 10px 15px;
+        width: 300px;
+        text-align: center;
+    }
     
+    #buttoncalc {
+        height: 40px;
+        margin-left: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+
+        /* Converter */
+
+    #selector {
+       margin-top: 20px;
+    }
+
+    #curren1 {
+        height: 30px;
+        width: 150px;
+        margin: 5px 5px 10px 15px;
+    }
+
+    #curren2 {
+        height: 30px;
+        width: 150px;
+        margin: 5px 5px 10px 15px;
+    }
+
+    #move {
+        height: 30px;
+        width: 150px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    #res_curren1 {
+        height: 30px;
+        width: 250px;
+        margin: 5px 5px 10px 15px;
+        text-align: center;
+    }
+
+    #res_curren2 {
+        height: 30px;
+        width: 250px;
+        margin: 5px 5px 10px 15px;
+    }
+    
+         /* Map */
+
     #frame {
         width: 960px;
         height: 230px;
         margin-bottom: 20px;
+        margin-top: 20px;
     }
 }   
