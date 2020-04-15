@@ -240,6 +240,17 @@ hr {
     margin-bottom: 20px;
 }
 
+#converter {
+    width: 300px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#move {
+    margin-left: 10px;
+}
+
 @media (min-width:768px) {
 
     

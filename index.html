@@ -226,14 +226,22 @@
             <p>©LembergTrans</p>
             
         </div>
-        <div id="usd"></div>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        
- 
-
+        <div id="converter">
+            <div id="usd"></div>
+            <div idv='selector'>
+                <select id="valuta1" onchange="convertNBU();"></select>
+                 <button id="move" onclick="moveValuta();">&#11136;</button> 
+                 <select id="valuta2" onchange="convertNBU()"></select>
+            </div>
+            <div>
+                <input id="res_valuta1" placeholder="Put Amount" oninput="convertNBU();" size="10"> 
+                <input id="res_valuta2" size="10" disabled>
+            </div>
+        </div>
     </footer>
         <script src="index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
