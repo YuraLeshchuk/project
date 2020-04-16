@@ -76,4 +76,20 @@ function calc() {
         sum = rate*price;
         document.getElementById('summ').innerHTML = "Total Price: " + sum + "UAH";
     }
-    }
+}
+    
+$(function(){
+	
+	$('.menuBurger').on('click', function(){
+		
+		$('.menu').slideToggle(300, function(){
+			
+			if($(this).css('display') === 'none'){
+				$(this).removeAttr('style');
+		}
+		
+	});
+	
+ });
+	
+});

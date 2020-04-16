@@ -3,6 +3,11 @@ body {
     margin: auto;
 }
 
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 h3 {
     margin: 5px;
 }
@@ -14,9 +19,6 @@ h2 {
     margin-left: 10%;
 }
 
-hr {
-    margin: 0px;
-}
 
 #home {
     background-image: url(../img/vnl-raw.jpg);
@@ -46,8 +48,9 @@ hr {
 }
 
 #eurotracksimage {
-    width: 450px;
-    margin-left: 20%;
+    width: 400px;
+    margin-left: 65px;
+    
     
 }
 
@@ -61,7 +64,7 @@ hr {
 #gps {
     text-align: center;
     width: 250px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 85px;
     font-size: 18px;
     margin-bottom: 85px;
@@ -81,7 +84,7 @@ hr {
 #route-planing {
     text-align: center;
     width: 250px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 85px;
     font-size: 18px;
     margin-bottom: 85px;
@@ -101,15 +104,16 @@ hr {
 #inventory-management {
     text-align: center;
     width: 250px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 85px;
     font-size: 18px;
-    margin-bottom: 85px;
+    margin-bottom: 20px;
 }
 
 #inventory-management p {
     font-size: 14px;
     color: grey;
+    
 }
 
 #service {
@@ -124,7 +128,7 @@ hr {
 }
 
 #quote {
-    width: 760px;
+    width: 560px;
     height: 280px;
     background-color: indigo;
     margin-top: 0px;
@@ -133,28 +137,28 @@ hr {
 #quotecontent { 
     width: 500px;
     color: white;
-    margin-left: 25%;
+    margin-left: 10%;
     padding-top: 80px;
-    font-size: 20px;
+    font-size: 16px;
     
 }
 
 #quoteauthor {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 15px;
 }
 
 #clients-header {
     text-align: center;
     width: 250px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 85px;
     font-size: 18px;
     margin-bottom: 85px;
 }
 
 #clientsCarousel {
-    width: 600px;
+    width: 530px;
     height: 251px;
 }
 .carousel-inner p {
@@ -174,17 +178,19 @@ hr {
 .carousel-control-prev {
     background-color: grey;
     opacity: 0.2;
+    height: 171px;
 }
 
 .carousel-control-next {
     background-color: gray;
     opacity: 0.2;
+    height: 171px;
 }
 
 #contactHeader {
     text-align: center;
     width: 250px;
-    margin-left: 35%;
+    margin-left: 25%;
     margin-top: 85px;
     font-size: 18px;
     margin-bottom: 25px;
@@ -193,7 +199,7 @@ hr {
 #contactcontent {
     text-align: center;
     width: 500px;
-    margin-left: 20%;
+    margin-left: 5%;
     font-size: 15px;
     margin-bottom: 25px;
 }
@@ -211,7 +217,7 @@ hr {
 #email {
     width: 300px;
     height: 35px;
-    margin-left: 35px;
+    margin-left: 23px;
     margin-right: 10px;
     border-style: solid;
     border-width: 1px;
@@ -224,12 +230,12 @@ hr {
     border-style: solid;
     border-width: 1px;
     border-color: black;
-    width: 250px;
-    margin-left: 35px;
+    width: 300px;
+    margin-left: 23px;
 }
 
-#formbuttons {
-    width: 70px;
+.btn-outline-dark {
+    width: 100px;
     margin-left: 43%;
     margin-bottom: 20px;
 }
@@ -246,37 +252,43 @@ hr {
     height: 40px;
     width: 100px;
     text-align: center;
-    margin: 15px 15px 10px 15px;
+    margin: 15px 15px 5px 15px;
 }
 
 #weight, #distance {
     height: 30px;
-    margin: 15px 15px 10px 15px;
+    margin: 15px 15px 0px 15px;
+    width: 400px;
 }
 
 #buttoncalc {
     height: 40px;
-    margin-left: 15px;
+    margin-left: 25px;
     margin-bottom: 15px;
+    margin-top: 0px;
     width: 300px;
+}
+#rate, #summ {
+    margin-left: 15px;
 }
 
     /* Converter */
 
 #selector {
     margin-left: 5px;
+    margin-top: 20px;
 }
 
 #curren1 {
     height: 30px;
     width: 150px;
-    margin: 15px 5px 10px 15px;
+    margin: 15px 5px 1px 15px;
 }
 
 #curren2 {
     height: 30px;
     width: 150px;
-    margin: 15px 5px 10px 15px;
+    margin: 10px 5px 10px 15px;
 }
 
 #move {
@@ -332,6 +344,7 @@ hr {
     #best-partners {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        margin-bottom: 5px;
 
     }
     
@@ -386,7 +399,7 @@ hr {
         margin-left: 30px;
         margin-top: 150px;
         font-size: 18px;
-        margin-bottom: 85px;
+        margin-bottom: 20px;
     }
     
     #inventory-management p {
@@ -406,7 +419,7 @@ hr {
     #quote {
         width: 960px;
         height: 280px;
-        background-color: indigo;
+        background-color:#4e1fa6;
         margin-top: 4px;
     }
     
@@ -521,8 +534,8 @@ hr {
         margin-top: 1px;
     }
     
-    form #formbuttons {
-        width: 100px;
+    .btn-outline-dark {
+        width: 150px;
         margin-left: 8%;
         margin-bottom: 20px;
     }
@@ -540,7 +553,8 @@ hr {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .form-control  {
+    #weight.form-control, 
+    #distance.form-control  {
         height: 40px;
         margin: 15px 5px 10px 15px;
         width: 300px;
