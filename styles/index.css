@@ -435,8 +435,16 @@ hr {
     
     #clientsCarousel {
         width: 960px;
-        height: 251px;
+        height: 250px;
     }
+
+    .carousel-indicators {
+        height: 230px;
+
+
+
+    }
+
     .carousel-inner p {
         color: black;
     }
@@ -454,11 +462,13 @@ hr {
     .carousel-control-prev {
         background-color: grey;
         opacity: 0.2;
+        height: 310px;
     }
     
     .carousel-control-next {
         background-color: gray;
         opacity: 0.2;
+        height: 310px;
     }
     
     #contactHeader {
@@ -486,16 +496,18 @@ hr {
         border-style: solid;
         border-width: 1px;
         border-color: black;
+        margin-bottom: 1px;
     }
     
     #email {
-        width: 300px;
+        width: 350px;
         height: 35px;
-        margin-left: 25%;
+        margin-left: 21%;
         margin-right: 10px;
         border-style: solid;
         border-width: 1px;
         border-color: black;
+        margin-top: 1px;
     }
     
     #name {
@@ -506,11 +518,12 @@ hr {
         border-color: black;
         width: 250px;
         margin-left: 40%;
+        margin-top: 1px;
     }
     
-    #formbuttons {
-        width: 70px;
-        margin-left: 43%;
+    form #formbuttons {
+        width: 100px;
+        margin-left: 8%;
         margin-bottom: 20px;
     }
 
@@ -518,12 +531,16 @@ hr {
 
     #transport {
         height: 40px;
-        width: 150px;
+        width: 250px;
         text-align: center;
         margin: 15px 15px 10px 15px;
     }
+    #calculation {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
-    #weight, #distance {
+    .form-control  {
         height: 40px;
         margin: 15px 5px 10px 15px;
         width: 300px;
@@ -538,21 +555,24 @@ hr {
     }
 
         /* Converter */
+    #converter{
+        display: grid;
+        grid-template-columns: auto;
+        margin-top: 20px;
+        margin-left: 15px;
 
-    #selector {
-       margin-top: 20px;
     }
+
 
     #curren1 {
         height: 30px;
         width: 150px;
-        margin: 5px 5px 10px 15px;
+        margin-left: 0px;
     }
 
     #curren2 {
         height: 30px;
         width: 150px;
-        margin: 5px 5px 10px 15px;
     }
 
     #move {
@@ -563,16 +583,15 @@ hr {
     }
 
     #res_curren1 {
-        height: 30px;
+        height: 35px;
         width: 250px;
-        margin: 5px 5px 10px 15px;
         text-align: center;
+        margin-left: 4px;
     }
 
     #res_curren2 {
-        height: 30px;
+        height: 35px;
         width: 250px;
-        margin: 5px 5px 10px 15px;
     }
     
          /* Map */
