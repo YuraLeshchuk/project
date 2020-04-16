@@ -19,7 +19,7 @@
             <div id="credo">
                 Quality.Efficiency.Support.
             </div>
-            <nav>
+            <nav >
                 <ul class="top-menu">
                     <li>
                         <a href="index.html">Home</a>
@@ -180,36 +180,36 @@
                 </div>
                 <form action="https://formspree.io/xjvoqdvj" method="POST">
                     <label>
-                        <textarea id="message" name="Message" placeholder="Message" required></textarea>
+                        <textarea id="message" class="form-control" name="Message" placeholder="Message" required></textarea>
                     </label>
                     <br>
                     <label>
-                        <input id="email" type="email" placeholder="Email" name="Email" required>
+                        <input id="email" type="email" class="form-control" placeholder="name@example.com" name="Email" required>
                     </label>
                     <label>
-                        <input id="name" type="text" placeholder="Full Name" name="Name" required>
+                        <input id="name" type="text" class="form-control" placeholder="Full Name" name="Name" required>
                     </label>
                     <br>
                     <div id="formbuttons">
-                        <input type="submit">
+                        <input class="btn btn-outline-dark" type="submit" value="Submit">
                     </div>
                 </form>
                 <div id="calculation">
-                    <select id="transport">
+                    <select id="transport" class="btn btn-secondary dropdown-toggle">
                         <option value="truck">Truck</option>
                         <option value="plane">Plane</option>
                         <option value="ship">Ship</option>
                     </select>
-                    <input type="text" id="weight"  placeholder="Weight (ton)" required>
-                    <input type="text" id="distance" placeholder="Distance (km)" required> <br>
-                    <button id="buttoncalc" onclick="calc()">Calculate carrier price</button>
+                    <input type="text" id="weight" class="form-control"  placeholder="Weight (ton)" required>
+                    <input type="text" id="distance" class="form-control" placeholder="Distance (km)" required> <br>
+                    <button class="btn btn-outline-secondary" id="buttoncalc" onclick="calc()">Calculate carrier price</button>
                     <div id="rate"></div>
                     <div id="summ"></div>
                 </div>
                 <div id="converter">
                     <div id="usd"></div>
                     <div id='selector'>
-                        <select id="curren1" onchange="convertNBU();"></select>
+                        <select  id="curren1" onchange="convertNBU();"></select>
                          <button id="move" onclick="currency();">&#11136;</button> 
                          <select id="curren2" onchange="convertNBU()"></select>
                     </div>
