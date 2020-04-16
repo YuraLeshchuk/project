@@ -154,7 +154,7 @@ hr {
 }
 
 #clientsCarousel {
-    width: 768px;
+    width: 600px;
     height: 251px;
 }
 .carousel-inner p {
@@ -199,7 +199,7 @@ hr {
 }
 
 #message {
-    width: 680px; 
+    width: 480px; 
     height:175px; 
     margin-left: 5%;
     margin-right: 5%;
@@ -243,19 +243,19 @@ hr {
 /* Calculator */
 
 #transport {
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 100px;
     text-align: center;
     margin: 15px 15px 10px 15px;
 }
 
 #weight, #distance {
     height: 30px;
-    margin: 15px 5px 10px 15px;
+    margin: 15px 15px 10px 15px;
 }
 
 #buttoncalc {
-    height: 30px;
+    height: 40px;
     margin-left: 15px;
     margin-bottom: 15px;
     width: 300px;
@@ -330,8 +330,9 @@ hr {
     }
 
     #best-partners {
+        background-color: ;
         display: grid;
-        grid-auto-rows: auto;
+        grid-template-columns: 1fr 1fr 1fr;
 
     }
     
@@ -343,12 +344,11 @@ hr {
     }
     
     #gps {
-        text-align: center;
-        width: 250px;
-        margin-left: 35%;
-        margin-top: 85px;
+        margin-top: 150px;
+        margin-left: 5px;
         font-size: 18px;
-        margin-bottom: 85px;
+        text-align: center;
+
     }
     
     #gps p {
@@ -357,15 +357,16 @@ hr {
     }
     
     #gpsimage {
-        height: 430px;
-        width: 960px;
+        height: 330px;
+        width: 320px;
     }
     
     #route-planing {
         text-align: center;
         width: 250px;
-        margin-left: 35%;
-        margin-top: 85px;
+        margin-left: 40px;
+        margin-right: 70px;
+        margin-top: 150px;
         font-size: 18px;
         margin-bottom: 85px;
     }
@@ -376,16 +377,15 @@ hr {
     }
     
     #mapimage {
-        height: 430px;
-        width: 960px;
-        object-fit: contain;
+        height: 330px;
+        width: 320px;
     }
     
     #inventory-management {
         text-align: center;
         width: 250px;
-        margin-left: 35%;
-        margin-top: 85px;
+        margin-left: 30px;
+        margin-top: 150px;
         font-size: 18px;
         margin-bottom: 85px;
     }
@@ -400,10 +400,8 @@ hr {
     }
     
     #serviceimage {
-        height: 420px;
-        width: 960px;
-        object-fit: contain;
-        margin: 0px;
+        height: 330px;
+        width: 320px;
     }
     
     #quote {
@@ -586,4 +584,6 @@ hr {
         margin-bottom: 20px;
         margin-top: 20px;
     }
+
+    
 }   
