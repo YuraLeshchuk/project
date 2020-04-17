@@ -47,49 +47,44 @@ showConvert(["USD", "EUR", "PLN", "CAD"]);
 //Calculation
 
 function calc() {
-    transport  = document.getElementById('transport').value;
-    switch (transport) {
-        case "truck":
-            price = 1.3;
-            break
-        case "plane":
-            price = 3;
-            break
-        case "ship":
-            price = 0.7;
-            break
-        default:
-            price = 1;
-            break
-    }
+  transport = document.getElementById("transport").value;
+  switch (transport) {
+    case "truck":
+      price = 1.3;
+      break;
+    case "plane":
+      price = 3;
+      break;
+    case "ship":
+      price = 0.7;
+      break;
+    default:
+      price = 1;
+      break;
+  }
 
-    weight  = document.getElementById('weight').value;
-    distance = document.getElementById('distance').value;
-    
-    if(weight == ""){
-        alert("Put cargo weight");
-    } else if(distance == ""){
-        alert("Put carrier distance");
-    } else {
-        rate = parseFloat (weight)* parseFloat (distance);
-    document.getElementById('rate').innerHTML = "Basic rate: "+ rate +" ton*km";
-        sum = rate*price;
-        document.getElementById('summ').innerHTML = "Total Price: " + sum + "UAH";
-    }
+  weight = document.getElementById("weight").value;
+  distance = document.getElementById("distance").value;
+
+  if (weight == "") {
+    alert("Put cargo weight");
+  } else if (distance == "") {
+    alert("Put carrier distance");
+  } else {
+    rate = parseFloat(weight) * parseFloat(distance);
+    document.getElementById("rate").innerHTML =
+      "Basic rate: " + rate + " ton*km";
+    sum = rate * price;
+    document.getElementById("summ").innerHTML = "Total Price: " + sum + "UAH";
+  }
 }
-    
-$(function(){
-	
-	$('.menuBurger').on('click', function(){
-		
-		$('.menu').slideToggle(300, function(){
-			
-			if($(this).css('display') === 'none'){
-				$(this).removeAttr('style');
-		}
-		
-	});
-	
- });
-	
+
+$(function () {
+  $(".menuBurger").on("click", function () {
+    $(".menu").slideToggle(300, function () {
+      if ($(this).css("display") === "none") {
+        $(this).removeAttr("style");
+      }
+    });
+  });
 });
