@@ -128,7 +128,7 @@ h2 {
 }
 
 #quote {
-    width: 560px;
+    width: 760px;
     height: 280px;
     background-color: indigo;
     margin-top: 0px;
@@ -158,7 +158,7 @@ h2 {
 }
 
 #clientsCarousel {
-    width: 530px;
+    width: 630px;
     height: 251px;
 }
 .carousel-inner p {
@@ -178,13 +178,13 @@ h2 {
 .carousel-control-prev {
     background-color: grey;
     opacity: 0.2;
-    height: 171px;
+    height: 205px;
 }
 
 .carousel-control-next {
     background-color: gray;
     opacity: 0.2;
-    height: 171px;
+    height: 205px;
 }
 
 #contactHeader {
